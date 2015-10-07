@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="24" height="96" tilewidth="32" tileheight="32" nextobjectid="19">
+ <tileset firstgid="1" name="sewer_tileset" tilewidth="32" tileheight="32" tilecount="36">
+  <image source="sewer_tileset.png" width="192" height="217"/>
+ </tileset>
+ <tileset firstgid="37" name="coin" tilewidth="32" tileheight="32" tilecount="1">
+  <image source="coin.png" width="33" height="33"/>
+ </tileset>
+ <layer name="background" width="24" height="96">
+  <data encoding="base64" compression="zlib">
+   eJzt1rkOwzAMA1Bv/v8/7tBFCBqXkkn5gAh4aZMnH6jc1r7pjZduhv3sVr9PjB38aJS+nf9zLSrfs5+7+eyUj9VY5TN7wgqfkcjvJuKrUr7fV/XQLJ+ZW3z23Wh9xbNsf6bXIvvD3lc0p/qj/WGcy687MstnxNZV3r3lj/2d+jP63go/EqRHntrfsn3GHbbaVyTLVyXqK88sw/fOo/zyd/ZP72/M/w/RMeOrUj7mq85FffZvBqvO6F3GepB3ZupEnvXU8a5Z7b/V+jcPto98760x6rGKnOyr75fy7/afNVQpH/OV4wPIVw/I
+  </data>
+ </layer>
+ <objectgroup name="born">
+  <object id="1" name="playerBorn" x="384" y="56" width="35" height="38"/>
+  <object id="5" name="monsterBorn1" x="331.5" y="440" width="35" height="38"/>
+  <object id="8" name="monsterBorn2" x="188.5" y="696" width="35" height="38"/>
+  <object id="9" name="monsterBorn3" x="640.5" y="920" width="35" height="38"/>
+  <object id="10" name="monsterBorn4" x="315.5" y="1081" width="35" height="38"/>
+  <object id="11" name="monsterBorn5" x="140.5" y="1336" width="35" height="38"/>
+  <object id="12" name="monsterBorn6" x="569.5" y="1688" width="35" height="38"/>
+  <object id="13" name="monsterBorn7" x="127.5" y="2073" width="35" height="38"/>
+  <object id="14" name="monsterBorn8" x="638.5" y="2072" width="35" height="38"/>
+  <object id="15" name="monsterBorn9" x="253.5" y="2328" width="35" height="38"/>
+  <object id="16" name="monsterBorn10" x="380.5" y="2392" width="35" height="38"/>
+  <object id="17" name="monsterBorn11" x="543.5" y="2554" width="35" height="38"/>
+  <object id="18" name="monsterBorn0" x="185.5" y="216" width="35" height="38"/>
+ </objectgroup>
+ <layer name="manage" width="24" height="96" opacity="0.13">
+  <data encoding="base64" compression="zlib">
+   eJzt2MsKgCAQBVBXrfz/720b4mQPiGY4B4RQNzEXX61BDv2kPxqDr73NoiyTSZ+01VzIYsysDP/L03qoIxVE++6V/RhgJlo7rCnAHavzyex+5b2XyrbDd4U8V/sf1saaqztADjsbNgIv
+  </data>
+ </layer>
+ <layer name="coin" width="24" height="96" opacity="0.86">
+  <data encoding="base64" compression="zlib">
+   eJzt2kEKwCAMBEA/4/+/2HtBoVrbLMxAriJkEzzYGmTok4JKnmZTlkkmv1ne6pW+U4EMwliVPb16jyr3h7+dngNzBtyd3gnp5wPs8v4CyDD7l7BTX7gAPWsJHA==
+  </data>
+ </layer>
+ <layer name="solid" width="24" height="96">
+  <data encoding="base64" compression="zlib">
+   eJzt1iEKAEAIBEDTJf//3quWaycozMAWwzbFCACAebLkV08+5gBV931wf9jOjgAA0/hPAPY6JRv7ASa5gIQBdQ==
+  </data>
+ </layer>
+ <layer name="rock" width="24" height="96">
+  <data encoding="base64" compression="zlib">
+   eJztzLEJADAIAEG3MPtPamPhBAHlDr79CAAAAOCKNwL2ym7rHwAAAPirAJOdAKU=
+  </data>
+ </layer>
+</map>
